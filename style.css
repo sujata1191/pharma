@@ -1,0 +1,196 @@
+
+*
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+header {
+  background: #023047;
+  color: white;
+  padding: 1rem 0;
+}
+
+header .logo {
+  font-size: 2.5rem;
+  color: beige;
+  font-weight: bold;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.hero {
+  background: #f4f4f4;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero .btn {
+  display: inline-block;
+  padding: 0.7rem 1.5rem;
+  background: #3498DB;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+
+.categories {
+  background: grey;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.categories h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.category-list {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.category {
+  background: #f4f4f4;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 200px;
+  text-align: center;
+}
+
+.services {
+  background: #f9f9f9;
+  padding: 2rem 0;
+}
+
+.services h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.services ul {
+  list-style: none;
+  text-align: center;
+}
+
+.services ul li {
+  margin: 0.5rem 0;
+}
+
+
+footer {
+  background: #1A1A1A;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+.testimonials{
+    background: #4fa1dc;
+    text-align: center;
+    padding: 2rem 0;
+}
+.testimonials h3{
+    color: #333;
+    margin-bottom: 1rem;
+}
+.contact-form {
+    background: #edf3f6;
+    padding: 2rem 0;
+  }
+  
+  .contact-form h3 {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form label {
+    margin: 0.5rem 0 0.2rem;
+  }
+  
+  form input, form textarea {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  form button {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .hero .btn:hover {
+    background: #45a049;
+  }
+  ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  header nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  @media (max-width: 768px) {
+    header nav ul {
+        flex-direction: row;
+        align-items: center;
+    }
+  }
+
+  ul li{
+    margin: 0.5rem 0;
+  }
+
+  @media (max-width: 768px) {
+    ul { 
+        padding-left: 1rem;
+  } 
+
+  ul li {
+    font-size: 0.9rem;
+    margin: 0.3rem 0;
+  }
+}
